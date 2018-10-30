@@ -15,8 +15,12 @@ p {
   line-height: 2rem;
 }
 
-.sidenav-trigger {
+/* .sidenav-trigger {
   color: #26a69a;
+} */
+
+.sidenav li > a {
+  font-size: 20px;
 }
 
 .parallax-container {
@@ -39,12 +43,6 @@ p {
   }
 }
 
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
-}
-
 .icon-block {
   padding: 0 15px;
 }
@@ -61,12 +59,23 @@ footer.page-footer {
   padding-right: 15px;
 }
 
-@media screen and (max-width: 600px) {
+.myNavDiv {
+  z-index: 998;
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
 
   .myPicture {
     max-width: unset;
     width: 100%;
     padding-right: unset;
     padding-bottom: 15px;
+  }
+
+  #logo-container {
+    font-size: 1.7em;
   }
 }
