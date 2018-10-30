@@ -55,3 +55,18 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+.myPicture {
+  max-width: 300px;
+  padding-right: 15px;
+}
+
+@media screen and (max-width: 600px) {
+
+  .myPicture {
+    max-width: unset;
+    width: 100%;
+    padding-right: unset;
+    padding-bottom: 15px;
+  }
+}

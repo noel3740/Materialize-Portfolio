@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Parallax Template - Materialize</title>
+  <title>Noel Nevarez</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -11,13 +11,13 @@
   <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-  <nav class="white" role="navigation">
+  <nav class="navbar-fixed white" role="navigation">
     <div class="nav-wrapper container">
       <a id="logo-container" href="#" class="brand-logo">Noel Nevarez</a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">About</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#about-banner">About</a></li>
+        <li><a href="#portfolio-banner">Portfolio</a></li>
+        <li><a href="#contact-banner">Contact</a></li>
       </ul>
 
       <ul id="nav-mobile" class="sidenav">
@@ -29,101 +29,184 @@
     </div>
   </nav>
 
-  <div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <br><br>
-        <h1 class="header center teal-text text-lighten-2">Parallax Template</h1>
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-        <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
-        </div>
-        <br><br>
-
-      </div>
-    </div>
-    <div class="parallax"><img src="assets/images/DSC01517.jpg" alt="Unsplashed background img 1"></div>
-  </div>
-
-
-  <div class="container">
-    <div class="section">
-
-      <!--   Icon Section   -->
-      <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Speeds up development</h5>
-
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
-
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Easy to work with</h5>
-
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+  <!--About Me Section-->
+  <section>
+    <div id="about-banner" class="parallax-container valign-wrapper">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <div class="row center">
+            <h1 class="header center teal-text text-lighten-2">About Me</h1>
           </div>
         </div>
       </div>
-
+      <div class="parallax"><img src="assets/images/DSC01517.jpg" alt="Image of a dog"></div>
     </div>
-  </div>
 
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+    <div class="container">
+      <div class="section">
+        <div class="row">
+          <div class="col s12">
+              <h5 class="center">About Me</h5>
+          </div>
+          <div class="col s12 light">
+              <img class="left myPicture" style="width:100%;" src="assets/images/mypic-400x400.jpg" alt="Picture of Noel Nevarez">
+              <p>
+                  I'm Noel Nevarez. A web developer who loves to travel, cook and eat. I'm originally from Slidell Louisiana. 
+                  I'm not a big fan of the heat and with humidity frequently around 100%, Louisiana was not an ideal place. 
+                  I always wanted to live up north in a place that actually had seasons. I took a vacation to Chicago in 2007 and fell in love with the people and big city life.
+                  I decided I wanted to live in Chicago and months later I was living in the city.
+              </p>
+              <p>
+                  I've traveled all over the US including California, Nevada, New Mexico, Idaho, Utah, Arizona, Texas, Colorado, 
+                  Arkansas, Louisiana, Wisconsin, Illinois, Indiana, Mississippi, Alabama, Tennessee, Kentucky, Ohio, Pennsylvania,
+                  New York, North Carolina, South Carolina, Georgia, Florida, and Hawaii. 
+                  Internationally I've traveled to Puerto Rico, Mexico, Canada, Spain, France, Germany, Italy, Austria, Greece, 
+                  England, Scotland, and Ireland. The top places I want to visit next are Japan, China, or any Asian country, 
+                  Australia, or New Zealand. 
+              </p>
+          </div>
         </div>
+
       </div>
     </div>
-    <div class="parallax"><img src="assets/images/DSC07832.jpg" alt="Unsplashed background img 2"></div>
-  </div>
+  </section>
 
-  <div class="container">
-    <div class="section">
-
-      <div class="row">
-        <div class="col s12 center">
-          <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Contact Us</h4>
-          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+  <!--Portfolio Section-->
+  <section>
+    <div id="portfolio-banner" class="parallax-container valign-wrapper">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <div class="row center">
+            <h2 class="header col s12 light">Portfolio</h2>
+          </div>
         </div>
       </div>
-
+      <div class="parallax"><img src="assets/images/DSC07832.jpg" alt="Unsplashed background img 2"></div>
     </div>
-  </div>
 
 
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+    <div class="container">
+      <div class="section">
+        <div class="row">
+          <div class="col s12 m4">
+            <div class="card sticky-action">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="assets/images/Hangman2.JPG">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator ">Word Guess Game<i class="material-icons right">more_vert</i></span>
+                </div>
+
+                <div class="card-reveal">
+                    <span class="card-title">Word Guess Game<i class="material-icons right">close</i></span>
+                    <p>A hawaiian themed word guess game. Made using bootstrap and javascript.</p>
+                </div>
+                
+                <div class="card-action">
+                    <a href="https://github.com/noel3740/Word-Guess-Game" target="_blank">Git Hub Repo</a>
+                    <a href="https://noel3740.github.io/Word-Guess-Game" target="_blank">Play</a>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col s12 m4">
+            <div class="card sticky-action">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="assets/images/Star-Wars-RPG.JPG">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator ">RPG Game<i class="material-icons right">more_vert</i></span>
+                </div>
+
+                <div class="card-reveal">
+                    <span class="card-title">RPG Game<i class="material-icons right">close</i></span>
+                    <p>Star wars RPG game made using bootstrap, javascript, and jQuery to move html elements and modify their attributes.</p>
+                </div>
+                
+                <div class="card-action">
+                    <a href="https://github.com/noel3740/unit-4-game" target="_blank">Git Hub Repo</a>
+                    <a href="https://noel3740.github.io/unit-4-game/" target="_blank">Play</a>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col s12 m4">
+              <div class="card sticky-action">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="assets/images/TriviaGame.JPG">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator ">Trivia Game<i class="material-icons right">more_vert</i></span>
+                </div>
+
+                <div class="card-reveal">
+                    <span class="card-title">Trivia Game<i class="material-icons right">close</i></span>
+                    <p>A video game themed trivia game made using bootstrap, javascript, and jQuery. Utilizing setInterval and setTimeout to run repeating and delayed functions.</p>
+                </div>
+                
+                <div class="card-action">
+                    <a href="https://github.com/noel3740/TriviaGame" target="_blank">Git Hub Repo</a>
+                    <a href="https://noel3740.github.io/TriviaGame/" target="_blank">Play</a>
+                  </div>
+              </div>
+          </div>
         </div>
+
       </div>
     </div>
-    <div class="parallax"><img src="assets/images/DSC07810.jpg" alt="Unsplashed background img 3"></div>
-  </div>
+  </section>
+
+  <!--Contact Section-->
+  <section>
+    <div id="contact-banner" class="parallax-container valign-wrapper">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <div class="row center">
+            <h2 class="header col s12 light">Contact</h2>
+          </div>
+        </div>
+      </div>
+      <div class="parallax"><img src="assets/images/DSC07810.jpg" alt="Unsplashed background img 2"></div>
+    </div>
+
+    <div class="container">
+      <div class="section">
+
+        <div class="row">
+          <div class="col s12 l2"></div>
+          <div class="col s12 l8">
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="name" type="text" class="validate">
+                  <label for="name">Name</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="email" type="email" class="validate"></textarea>
+                  <label for="email">Email</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <textarea id="inputMessage" class="materialize-textarea"></textarea>
+                  <label for="inputMessage">Message</label>
+                </div>
+              </div>
+              <div class="row">
+                  <button type="submit" class="waves-effect waves-light btn">Submit
+                      <i class="material-icons right">send</i>
+                  </button>
+              </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
 
   <footer class="page-footer teal">
-    <div class="container">
+<!--     <div class="container">
       <div class="row">
         <div class="col l6 s12">
           <h5 class="white-text">Company Bio</h5>
@@ -150,10 +233,10 @@
           </ul>
         </div>
       </div>
-    </div>
+    </div> -->
     <div class="footer-copyright">
       <div class="container">
-      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      Made by Noel Nevarez using Materialize</a>
       </div>
     </div>
   </footer>
